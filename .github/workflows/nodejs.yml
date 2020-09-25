@@ -28,6 +28,6 @@ jobs:
         SSH_PRIVATE_KEY: ${{ secrets.ALIYUN }}
         ARGS: "-rltgoDzvO --delete"
         SOURCE: "dist/"
-        REMOTE_HOST: "120.55.63.14:8081"
+        REMOTE_HOST: "120.55.63.14"
         REMOTE_USER: "administrator "
         TARGET: "/wwwroot/www.xavierxin.com/autodeploy/"
